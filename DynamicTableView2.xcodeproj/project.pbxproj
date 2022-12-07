@@ -17,6 +17,9 @@
 		7ECBB7F1293FA33500E65D25 /* DynamicTableView2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBB7F0293FA33500E65D25 /* DynamicTableView2Tests.swift */; };
 		7ECBB7FB293FA33500E65D25 /* DynamicTableView2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBB7FA293FA33500E65D25 /* DynamicTableView2UITests.swift */; };
 		7ECBB7FD293FA33500E65D25 /* DynamicTableView2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBB7FC293FA33500E65D25 /* DynamicTableView2UITestsLaunchTests.swift */; };
+		7ECBB80A293FA3D700E65D25 /* AcademyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBB809293FA3D700E65D25 /* AcademyModel.swift */; };
+		7ECBB80D293FA55B00E65D25 /* AcademyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBB80B293FA55B00E65D25 /* AcademyTableViewCell.swift */; };
+		7ECBB80E293FA55B00E65D25 /* AcademyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ECBB80C293FA55B00E65D25 /* AcademyTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		7ECBB7F6293FA33500E65D25 /* DynamicTableView2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicTableView2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECBB7FA293FA33500E65D25 /* DynamicTableView2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableView2UITests.swift; sourceTree = "<group>"; };
 		7ECBB7FC293FA33500E65D25 /* DynamicTableView2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableView2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7ECBB809293FA3D700E65D25 /* AcademyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademyModel.swift; sourceTree = "<group>"; };
+		7ECBB80B293FA55B00E65D25 /* AcademyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademyTableViewCell.swift; sourceTree = "<group>"; };
+		7ECBB80C293FA55B00E65D25 /* AcademyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AcademyTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				7ECBB7E4293FA33500E65D25 /* LaunchScreen.storyboard */,
 				7ECBB7E7293FA33500E65D25 /* Info.plist */,
 				7ECBB7DF293FA33400E65D25 /* DynamicTableView2.xcdatamodeld */,
+				7ECBB809293FA3D700E65D25 /* AcademyModel.swift */,
+				7ECBB80B293FA55B00E65D25 /* AcademyTableViewCell.swift */,
+				7ECBB80C293FA55B00E65D25 /* AcademyTableViewCell.xib */,
 			);
 			path = DynamicTableView2;
 			sourceTree = "<group>";
@@ -234,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ECBB80E293FA55B00E65D25 /* AcademyTableViewCell.xib in Resources */,
 				7ECBB7E6293FA33500E65D25 /* LaunchScreen.storyboard in Resources */,
 				7ECBB7E3293FA33500E65D25 /* Assets.xcassets in Resources */,
 				7ECBB7DE293FA33400E65D25 /* Main.storyboard in Resources */,
@@ -262,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ECBB7E1293FA33400E65D25 /* DynamicTableView2.xcdatamodeld in Sources */,
+				7ECBB80A293FA3D700E65D25 /* AcademyModel.swift in Sources */,
+				7ECBB80D293FA55B00E65D25 /* AcademyTableViewCell.swift in Sources */,
 				7ECBB7DB293FA33400E65D25 /* ViewController.swift in Sources */,
 				7ECBB7D7293FA33400E65D25 /* AppDelegate.swift in Sources */,
 				7ECBB7D9293FA33400E65D25 /* SceneDelegate.swift in Sources */,

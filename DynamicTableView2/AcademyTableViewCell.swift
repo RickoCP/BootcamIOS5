@@ -9,6 +9,8 @@ import UIKit
 
 class AcademyTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var academyImageView: UIImageView!
+    @IBOutlet weak var academyLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
